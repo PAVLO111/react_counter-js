@@ -9,25 +9,12 @@ export const App = () => {
     console.log(count + 1);
 
     setCount(count + 1);
-
-    // const copy = count;
-
-    // setTimeout(() => {
-    //   console.log(copy + 19);
-    //   count + 1;
-    // }, 2000);
-
-    // return 1;
-
-    // return copy + 1;
-
-    // return count + 1;
-    // write code here
   };
 
   const add100 = () => {
     console.log(count + 100);
-    // write code here
+
+    return setCount(count + 100);
   };
 
   // DON'T change the code below
